@@ -2,7 +2,7 @@
   "name": "porfolio_website",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://Unravel2802.github.io/portfolio_website",
+  "homepage": "https://unravel2802.github.io/portfolio_website",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

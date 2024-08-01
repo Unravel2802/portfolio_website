@@ -5,7 +5,12 @@ const About = () => {
         <section id="about">
             <h2>About Me</h2>
             <p>
-                I am a Computer Science and Mathematics double major at the University of Massachusetts at Amherst with a passion for developing innovative software solutions. I have experience in machine learning, full-stack development, and AI.
+                My name is Hoang, a computer enthusiast from Hanoi, Vietnam. I am interested in developing end-to-end solutions/applications
+                that apply Machine Learning into other fields like medical or education. Working in
+                VNPT Technology and FPT Information System have provided me the experience to build
+                full-stack web applications as well as applying my Machine Learning knowledge to the
+                real world. I am currently a junior at University of Massachusetts at Amherst, majoring
+                in computer science and mathematics (data science concentration).
             </p>
         </section>
     );

@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
     return (
         <div className={"page"} id={"about"}>
-            <h2>About Me</h2>
+            <h1>About Me</h1>
             <p>
                 Hi, I'm Hoang, a computer enthusiast from Hanoi, Vietnam.
                 I'm passionate about applying Machine Learning in fields like medicine and education.

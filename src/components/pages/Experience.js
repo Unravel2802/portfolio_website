@@ -3,7 +3,7 @@ import React from 'react';
 const Experience = () => {
     return (
         <div className={"page"} id={"experience"}>
-            <h2>Experience</h2>
+            <h1>My Experience</h1>
         </div>
     );
 };

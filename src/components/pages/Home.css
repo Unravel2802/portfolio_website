@@ -7,6 +7,8 @@
     justify-content: center;
     color: #170B3B;
     text-align: center;
+    position: relative; /* Ensure it works with the ripple effect */
+    overflow: hidden;
 }
 
 .page#home {

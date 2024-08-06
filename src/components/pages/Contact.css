@@ -1,0 +1,10 @@
+.page#contact {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Align items at the start (top) */
+    text-align: center;
+    padding-top: 16px; /* Adjust this value as needed to avoid overlap with the navbar */
+    box-sizing: border-box;
+}

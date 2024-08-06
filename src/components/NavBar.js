@@ -1,9 +1,8 @@
 import React from 'react';
 
-const Header = () => {
+const NavBar = () => {
     return (
         <header>
-            <h1> My portfolio </h1>
             <nav>
                 <ul>
                     <li><a href={'#about'}> About </a></li>
@@ -16,4 +15,4 @@ const Header = () => {
     )
 }
 
-export default Header;
+export default NavBar;

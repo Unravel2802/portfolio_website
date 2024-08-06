@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './components/Header';
+import NavBar from './components/NavBar';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
@@ -8,7 +8,7 @@ import Experience from "./components/Experience";
 function App() {
     return (
         <div className="App">
-            <Header />
+            <NavBar />
             <main>
                 <About />
                 <Experience />

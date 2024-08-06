@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <section id="about">
+        <div className={"page"} id={"about"}>
             <h2>About Me</h2>
             <p>
                 Hi, I'm Hoang, a computer enthusiast from Hanoi, Vietnam.
@@ -11,7 +11,7 @@ const About = () => {
                 full-stack web development and real-world ML applications. Currently, I'm a junior at the
                 University of Massachusetts Amherst.
             </p>
-        </section>
+        </div>
     );
 };
 

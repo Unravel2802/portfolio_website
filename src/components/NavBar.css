@@ -1,0 +1,40 @@
+header{
+    background-color: #EF9C66;
+    padding: 16px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+
+li {
+    display: inline;
+}
+
+a {
+    color: #00A9FF;
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+a:hover {
+    background-color: #E3FDFD;
+    border-radius: 5px;
+}
+
+

@@ -1,23 +1,21 @@
 import React from 'react';
-import Home from './components/Home';
+import Home from './components/pages/Home';
 import NavBar from './components/NavBar';
-import About from './components/About';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
+import About from './components/pages/About';
+import Projects from './components/pages/Projects';
+import Contact from './components/pages/Contact';
 import Footer from './components/Footer';
-import Experience from "./components/Experience";
+import Experience from "./components/pages/Experience";
 import './App.css'
 function App() {
     return (
-        <div className="App">
+        <div>
             <NavBar />
-            <main>
-                <Home />
-                <About />
-                <Experience />
-                <Projects />
-                <Contact />
-            </main>
+            <Home />
+            <About />
+            <Projects />
+            <Experience />
+            <Contact />
             <Footer />
         </div>
     );

@@ -1,6 +1,6 @@
 /* Home.css */
 #home {
-    /*background: url('/background.jpg') no-repeat center center/cover;*/
+    /*background: url('/public/images/ocean_img.jpeg') no-repeat center center/cover;*/
     height: 100vh;
     display: flex;
     align-items: center;

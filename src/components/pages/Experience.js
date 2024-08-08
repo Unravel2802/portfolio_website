@@ -1,10 +1,14 @@
 import React from 'react';
+import useRippleEffect from "../effects/RippleEffect";
 
 const Experience = () => {
+    useRippleEffect('#experience');
     return (
-        <div className={"page"} id={"experience"}>
-            <h1>My Experience</h1>
-        </div>
+        <section id={'experience'}>
+            <div className={"page"} id={"experience"}>
+                <h1>My Experience</h1>
+            </div>
+        </section>
     );
 };
 

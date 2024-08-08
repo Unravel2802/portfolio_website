@@ -1,8 +1,6 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './About.css'
 import hoang from '../../images/about.jpg';
-import $ from 'jquery';
-import 'jquery.ripples';
 import useRippleEffect from "../effects/RippleEffect";
 const About = () => {
     useRippleEffect('#about')

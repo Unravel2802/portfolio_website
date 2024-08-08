@@ -14,7 +14,7 @@ const useRippleEffect = (selector) => {
             const $element = $(selector);
             const x = event.clientX;
             const y = event.clientY;
-            const dropRadius = 40;
+            const dropRadius = 45;
             const strength = 0.08;
 
             $element.ripples('drop', x, y, dropRadius, strength);

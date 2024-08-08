@@ -1,17 +1,5 @@
-/* Home.css */
-#home {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #170B3B;
-    text-align: center;
-    position: relative; /* Ensure it works with the ripple effect */
-    overflow: hidden;
-}
-
 .page#home {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: var(--light-overlay);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
@@ -24,14 +12,13 @@
 }
 
 .main-title {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-family);
     font-size: 3em;
-    margin: 0;
     animation: fadeIn 2s ease-in-out;
 }
 
 .subtitle {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-family);
     font-size: 1.5em;
     margin: 10px 0 0;
     animation: fadeIn 3s ease-in-out;

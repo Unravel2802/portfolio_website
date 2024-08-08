@@ -1,15 +1,18 @@
 import React from 'react';
-import './About.css'
+import './About.css';
+import '../../App.css'
 import hoang from '../../images/about.jpg';
 import useRippleEffect from "../effects/RippleEffect";
+
 const About = () => {
-    useRippleEffect('#about')
+    useRippleEffect('#about');
+
     return (
-        <section id={"about"}>
-            <div className={"page about-page"} id={"about"}>
+        <section id='about'>
+            <div className='page about-page'>
                 <h1>About Me</h1>
-                <div className={"about-content"}>
-                    <div className={"about-text"}>
+                <div className='about-content'>
+                    <div className='about-text'>
                         <p>
                             My name is Ly Quoc Hoang (you can call me Justin), a computer enthusiast from Hanoi,
                             Vietnam. I'm interested in the application of Machine Learning in other fields like medicine and education.
@@ -18,8 +21,8 @@ const About = () => {
                             science and mathematics at the University of Massachusetts Amherst.
                         </p>
                     </div>
-                    <div className={"about-image"}>
-                        <img src={hoang} alt={"hoang"}/>
+                    <div className='about-image'>
+                        <img src={hoang} alt='hoang' />
                     </div>
                 </div>
             </div>

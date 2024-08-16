@@ -1,0 +1,67 @@
+.projects-page {
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+
+.projects-header {
+    font-size: 2.5rem; /* Larger font size for the header */
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #2C3E50;
+}
+
+.projects-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    width: 90%;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+    .experience-content {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+.projects-item {
+    background-color: #F6EACB;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    color: #2C3E50;
+    font-size: 16px;
+    line-height: 1.4;
+    max-height: 350px;
+}
+
+.projects-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-image img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.projects-image img:hover {
+    transform: scale(1.05);
+}

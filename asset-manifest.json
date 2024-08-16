@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio_website/static/css/main.585e60bd.css",
-    "main.js": "/portfolio_website/static/js/main.395a5125.js",
+    "main.css": "/portfolio_website/static/css/main.5265e720.css",
+    "main.js": "/portfolio_website/static/js/main.538e82b0.js",
     "static/js/453.2bbb1a84.chunk.js": "/portfolio_website/static/js/453.2bbb1a84.chunk.js",
+    "static/media/webicon.png": "/portfolio_website/static/media/webicon.07da6eb77567db052762.png",
     "static/media/ai-fpt.jpeg": "/portfolio_website/static/media/ai-fpt.70aa33554511506eb5d8.jpeg",
+    "static/media/ee.webp": "/portfolio_website/static/media/ee.5949e88c4e9e532898fd.webp",
     "static/media/about.jpg": "/portfolio_website/static/media/about.d1fda64fda298c8c9657.jpg",
     "static/media/smarthome-vnpt.png": "/portfolio_website/static/media/smarthome-vnpt.4dcf7ba0e7fe05df8ff5.png",
     "index.html": "/portfolio_website/index.html",
-    "main.585e60bd.css.map": "/portfolio_website/static/css/main.585e60bd.css.map",
-    "main.395a5125.js.map": "/portfolio_website/static/js/main.395a5125.js.map",
+    "main.5265e720.css.map": "/portfolio_website/static/css/main.5265e720.css.map",
+    "main.538e82b0.js.map": "/portfolio_website/static/js/main.538e82b0.js.map",
     "453.2bbb1a84.chunk.js.map": "/portfolio_website/static/js/453.2bbb1a84.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.585e60bd.css",
-    "static/js/main.395a5125.js"
+    "static/css/main.5265e720.css",
+    "static/js/main.538e82b0.js"
   ]
 }

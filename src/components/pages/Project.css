@@ -1,10 +1,9 @@
 .projects-page {
     min-height: 100vh;
-    height: auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: flex-start;
     padding-top: 60px;
     box-sizing: border-box;
 }
